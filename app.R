@@ -57,7 +57,7 @@ ui <- shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       plotOutput("tt1"), htmlOutput("text1")   , htmlOutput("text2") 
-      , htmlOutput("text3")  , htmlOutput("text4"), htmlOutput("text5"), htmlOutput("text6"), htmlOutput("text7"), htmlOutput("text8"), htmlOutput("text9")
+      , htmlOutput("text3")  , htmlOutput("text4"), htmlOutput("text5"), htmlOutput("text6")
       , tags$head(tags$style("#text1{color: red;
                              font-size: 15px;
                              font-style: bold;
